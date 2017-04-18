@@ -114,6 +114,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QxM-S0-IVC" secondAttribute="bottom" id="y5P-F8-3J6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="QxM-S0-IVC" id="5mp-mR-M2g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
